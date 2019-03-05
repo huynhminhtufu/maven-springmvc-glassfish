@@ -10,7 +10,7 @@
     <packaging>war</packaging>
     <properties>
         <name>springmvc</name>
-        <springframework.version>4.3.0.RELEASE</springframework.version>
+        <springframework.version>4.3.22.RELEASE</springframework.version>
         <endorsed.dir>${project.build.directory}/endorsed</endorsed.dir>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
