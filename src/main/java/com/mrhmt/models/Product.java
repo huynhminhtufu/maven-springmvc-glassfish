@@ -34,7 +34,7 @@ public class Product {
         return amount;
     }
 
-    public void setAmout(int amount) {
+    public void setAmount(int amount) {
         this.amount = amount;
     }
 

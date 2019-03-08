@@ -16,7 +16,7 @@
     <table>
         <tr>
             <td><form:label path="id">id</form:label></td>
-            <td><form:input path="id" value="${product.id}" disabled="true"/></td>
+            <td><form:input path="id" value="${product.id}"/></td>
         </tr>
         <tr>
             <td><form:label path="name">name</form:label></td>

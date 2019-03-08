@@ -15,13 +15,13 @@
     <h1>Danh sach san pham</h1>
     <p><a href="create">Tao moi</a></p>
     <hr/>
-    <table>
+    <table border="1">
         <thead>
-            <tr>Ma so</tr>
-            <tr>Ten</tr>
-            <tr>Gia</tr>
-            <tr>So luong</tr>
-            <tr>Thao tac</tr>
+            <td>Ma so</td>
+            <td>Ten</td>
+            <td>Gia</td>
+            <td>So luong</td>
+            <td>Thao tac</td>
         </thead>
         <tbody>
             <c:forEach var="row" items="${listProduct}">

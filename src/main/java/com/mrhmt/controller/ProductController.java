@@ -24,6 +24,11 @@ public class ProductController {
         }
     }
 
+    @RequestMapping(value = "/", method = RequestMethod.GET)
+    public RedirectView none() {
+        return new RedirectView("/product/index");
+    }
+
     @RequestMapping(value = "/index", method = RequestMethod.GET)
     public ModelAndView index() {
         loadData();
@@ -100,10 +105,9 @@ public class ProductController {
     }
 
     private boolean updateProduct(Product product) {
-        System.out.println("hehe " + product.getId());
         for (Product newProduct : ProductData.listProduct) {
             if (newProduct.getId() == product.getId()) {
-                newProduct.setAmout(product.getAmount());
+                newProduct.setAmount(product.getAmount());
                 newProduct.setName(product.getName());
                 newProduct.setPrice(product.getPrice());
 
@@ -123,7 +127,6 @@ public class ProductController {
         if (updateProduct(product)) {
             return new RedirectView("/product/index");
         } else {
-            System.out.println("Fail!");
             return new RedirectView("/product/index");
         }
     }
