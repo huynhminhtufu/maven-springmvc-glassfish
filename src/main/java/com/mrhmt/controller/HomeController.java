@@ -22,6 +22,7 @@ public class HomeController {
         return "/home/show";
     }
 
+
     @RequestMapping(value = "/getFromGET", method = RequestMethod.GET)
     public String getDataFromRequestGET(
         @RequestParam(value = "id", required = false) int code,
