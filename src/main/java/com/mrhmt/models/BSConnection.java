@@ -1,11 +1,11 @@
 package com.mrhmt.models;
 
-        import java.sql.Connection;
-        import java.sql.DriverManager;
-        import java.sql.SQLException;
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.SQLException;
 
-public class MyConnection {
-    public static final String DB_URL = "jdbc:mysql://localhost:3306/hocsinh_db?useUnicode=yes&characterEncoding=UTF-8";
+public class BSConnection {
+    public static final String DB_URL = "jdbc:mysql://localhost:3306/bookstore?useUnicode=yes&characterEncoding=UTF-8";
     public static final String USER_NAME = "root";
     public static final String PASSWORD = "12345678";
 
