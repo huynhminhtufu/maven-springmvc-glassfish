@@ -25,4 +25,7 @@
     <factorypathentry kind="VARJAR" id="M2_REPO/junit/junit/3.8.1/junit-3.8.1.jar" enabled="true" runInBatchMode="false"/>
     <factorypathentry kind="VARJAR" id="M2_REPO/classworlds/classworlds/1.1-alpha-2/classworlds-1.1-alpha-2.jar" enabled="true" runInBatchMode="false"/>
     <factorypathentry kind="VARJAR" id="M2_REPO/org/glassfish/simple-glassfish-api/3.1.1/simple-glassfish-api-3.1.1.jar" enabled="true" runInBatchMode="false"/>
+    <factorypathentry kind="VARJAR" id="M2_REPO/jstl/jstl/1.2/jstl-1.2.jar" enabled="true" runInBatchMode="false"/>
+    <factorypathentry kind="VARJAR" id="M2_REPO/javax/javaee-web-api/7.0/javaee-web-api-7.0.jar" enabled="true" runInBatchMode="false"/>
+    <factorypathentry kind="VARJAR" id="M2_REPO/mysql/mysql-connector-java/5.1.6/mysql-connector-java-5.1.6.jar" enabled="true" runInBatchMode="false"/>
 </factorypath>
